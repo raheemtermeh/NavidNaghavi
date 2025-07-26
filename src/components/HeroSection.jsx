@@ -9,7 +9,7 @@ import { FaPlayCircle } from 'react-icons/fa';
 
 const HeroSection = () => {
     return (
-        <section className="relative pb-10 bg-gradient-to-br from-dark to-primary flex items-center h-screen overflow-hidden">
+        <section className="relative bg-gradient-to-br from-dark to-[#003b34] flex items-center h-screen overflow-hidden">
             <div className="container mx-auto px-6 z-10">
                 <div className="grid lg:grid-cols-2 gap-12 items-center">
                     {/* ستون متن و محتوا */}
@@ -33,7 +33,7 @@ const HeroSection = () => {
                                 تماشای ویدیوی معرفی
                             </a>
                         </div>
-                       
+                        
                     </motion.div>
 
                     {/* ستون گرافیکی متحرک */}
@@ -58,11 +58,11 @@ const HeroSection = () => {
                 </div>
             </div>
 
-
-            <div className="absolute bottom-[-1px] w-full z-20 ">
+            <div className="absolute bottom-[-1px] w-full z-20">
                 <ArcDivider color="#0d1117" />
             </div>
         </section>
+        
     );
 };
 
